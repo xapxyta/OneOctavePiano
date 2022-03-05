@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+.piano {
+    text-align: center;
+    margin: 4% auto;
+    width: 800px;
+    height: 600px;
+    background: black;
+    box-shadow: 0 0 10px black;
+    position: relative;
+}
+
+.button {
+    display: inline-block;
+    width: 70px;
+    height: 95%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(213,202,166,1) 100%);
+    margin: 5% auto;
+    line-height: 28;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    border-radius: 5px;
+    box-shadow: 4px 4px gray;
+    /* z-index: 0; */
+}
+
+.s {
+    position: absolute;
+    left: 193px;
+}
+
+.d {
+    position: absolute;
+    left: 273px;
+}
+
+.g {
+    position: absolute;
+    left: 414px;
+}
+
+.h {
+    position: absolute;
+    left: 492px;
+}
+
+.j {
+    position: absolute;
+    left: 572px;
+}
+
+.black-button {
+    display: inline-block;
+    margin: 4% auto;
+    width: 35px;
+    color: white;
+    height: 50%;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 4px 4px gray;
+    line-height: 28;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    /* z-index: 1; */
+}
+
+.black-button:hover {
+    background: rgb(83,83,83);
+    background: linear-gradient(0deg, rgba(83,83,83,1) 0%, rgba(0,0,0,1) 60%);
+}
+
+.button:hover {
+    background: rgb(161,161,161);
+    background: linear-gradient(0deg, rgba(161,161,161,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.buttons {
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    height: 95%;
+}
+
+footer {
+    font-family: 'Dongle', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    margin: 2% 0 0;
+}
+
+.button:active {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    background: rgb(85,85,85);
+    background: linear-gradient(0deg, rgba(85,85,85,1) 67%, rgba(189,189,189,1) 100%);
+}
+
+.black-button:active {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    background: rgb(189,189,189);
+    background: linear-gradient(0deg, rgba(189,189,189,1) 67%, rgba(0,0,0,1) 100%);
+}
+
+.bPressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    background: rgb(189,189,189);
+    background: linear-gradient(0deg, rgba(189,189,189,1) 67%, rgba(0,0,0,1) 100%);
+}
+
+.wPressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    background: rgb(85,85,85);
+    background: linear-gradient(0deg, rgba(85,85,85,1) 67%, rgba(189,189,189,1) 100%);
+}
